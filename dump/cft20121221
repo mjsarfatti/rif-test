@@ -1,0 +1,137 @@
+a:24:{s:33:"custom_field_template_before_list";s:4:"<ul>";s:32:"custom_field_template_after_list";s:5:"</ul>";s:34:"custom_field_template_before_value";s:4:"<li>";s:33:"custom_field_template_after_value";s:5:"</li>";s:16:"shortcode_format";a:1:{i:0;s:360:"<table class="cft">
+<tbody>
+<tr>
+<th>Plan</th><td colspan="3">[Plan]</td>
+</tr>
+<tr>
+<th>Favorite Fruits</th><td>[Favorite Fruits]</td>
+<th>Miles Walked</th><td>[Miles Walked]</td>
+</tr>
+<tr>
+<th>Temper Level</th><td colspan="3">[Temper Level]</td>
+</tr>
+<tr>
+<th>Hidden Thought</th><td colspan="3">[Hidden Thought]</td>
+</tr>
+</tbody>
+</table>";}s:3:"css";s:585:".cft { overflow:hidden; }
+.cft:after { content:" "; clear:both; height:0; display:block; visibility:hidden; }
+.cft dl { margin:10px 0; }
+.cft dl:after { content:" "; clear:both; height:0; display:block; visibility:hidden; }
+.cft dt { width:20%; clear:both; float:left; display:inline; font-weight:bold; text-align:center; }
+.cft dt .hideKey { visibility:hidden; }
+.cft dd { margin:0 0 0 21%; }
+.cft dd p.label { font-weight:bold; margin:0; }
+.cft_instruction { margin:10px; }
+.cft fieldset { border:1px solid #CCC; margin:5px; padding:5px; }
+.cft .dl_checkbox { margin:0; }
+";s:5:"posts";a:0:{}s:13:"custom_fields";a:2:{i:0;a:10:{s:5:"title";s:32:"Template predefinito - non usare";s:7:"content";s:542:"[Plan]
+type = text
+size = 35
+label = Where are you going to go?
+
+[Plan]
+type = textfield
+size = 35
+hideKey = true
+
+[Favorite Fruits]
+type = checkbox
+value = apple # orange # banana # grape
+default = orange # grape
+
+[Miles Walked]
+type = radio
+value = 0-9 # 10-19 # 20+
+default = 10-19
+clearButton = true
+
+[Temper Level]
+type = select
+value = High # Medium # Low
+default = Low
+
+[Hidden Thought]
+type = textarea
+rows = 4
+cols = 40
+tinyMCE = true
+htmlEditor = true
+mediaButton = true
+
+[File Upload]
+type = file";s:11:"instruction";s:0:"";s:8:"category";s:1:"0";s:4:"post";s:1:"0";s:9:"post_type";s:0:"";s:16:"custom_post_type";s:0:"";s:14:"template_files";s:0:"";s:7:"disable";s:1:"1";s:6:"format";s:0:"";}i:1;a:9:{s:5:"title";s:9:"Candidato";s:7:"content";s:2526:"[nome]
+type = text
+size = 35
+label = Nome
+
+[cognome]
+type = text
+size = 35
+label = Cognome
+
+[featured]
+type = checkbox
+value = sì
+label = visibile in homepage?
+
+[status]
+type = radio
+value = ha accettato#ha rifiutato#non ha risposto
+default = non ha risposto
+label = status del candidato
+
+[data-status]
+type = text
+size = 35
+label = data del cambio di status
+date = true
+
+[partito]
+type = text
+size = 35
+label = partito
+
+[candidato-per]
+type = radio
+value = Camera # Senato
+default = Camera
+label = Candidato per
+
+[circoscrizione-camera]
+label = circoscrizione se candidato alla camera
+type = select
+value = Piemonte 1 (Torino) # Piemonte 2 (Cuneo, Alessandria, Asti, Novara, Vercelli, Biella, Verbano-Cusio-Ossola) # Lombardia 1 (Milano e Monza e Brianza) # Lombardia 2 (Bergamo, Brescia, Como, Sondrio, Varese e Lecco) # Lombardia 3 (Pavia, Lodi, Cremona e Mantova) # Trentino-Alto Adige # Veneto 1 (Padova, Verona, Vicenza e Rovigo) # Veneto 2 (Venezia, Treviso e Belluno) # Friuli-Venezia Giulia # Liguria # Emilia-Romagna # Toscana # Umbria # Marche # Lazio 1 (Roma) # Lazio 2 (Latina, Frosinone, Viterbo e Rieti) # Abruzzo # Molise
+Campania 1 (Napoli) # Campania 2 (Avellino, Benevento, Caserta e Salerno) # Puglia # Basilicata # Calabria # Sicilia 1 (Palermo, Agrigento, Caltanissetta e Trapani) # Sicilia 2 (Catania, Messina, Enna, Ragusa e Siracusa) # Sardegna # Valle d\'Aosta # Estero - Europa # Estero - America Meridionale # Estero - America Settentrionale e Centrale # Estero - Africa, Asia, Oceania ed Antartide
+default = Piemonte 1 (Torino)
+
+[circoscrizione-senato]
+label = circoscrizione se candidato al senato
+type = select
+value = Piemonte # Lombardia # Trentino-Alto Adige # Veneto # Friuli-Venezia Giulia # Liguria # Emilia-Romagna # Toscana # Umbria # Marche # Lazio # Abruzzo # Molise # Campania # Puglia # Basilicata # Calabria # Sicilia # Sardegna # Valle D\'Aosta # Estero - Europa # Estero - America Meridionale # Estero - America Settentrionale e Centrale # Estero - Africa, Asia, Oceania ed Antartide
+default = Piemonte
+
+[dichiarazione]
+type = textarea
+rows = 4
+cols = 40
+tinyMCE = true
+htmlEditor = true
+
+[sito-internet]
+type = text
+size = 35
+label = tipo http://www.esempio.it
+
+[eletto]
+type = checkbox
+value = sì
+label = il candidato è stato eletto?
+
+[contatti]
+label = inserire numero di telefono, email ed eventuali note - il campo rimane privato 
+type = textarea
+rows = 4
+cols = 40
+tinyMCE = true
+htmlEditor = true";s:11:"instruction";s:0:"";s:8:"category";s:0:"";s:4:"post";s:0:"";s:9:"post_type";s:0:"";s:16:"custom_post_type";s:9:"candidati";s:14:"template_files";s:0:"";s:6:"format";s:0:"";}}s:44:"custom_field_template_replace_keys_by_labels";s:0:"";s:41:"custom_field_template_use_multiple_insert";s:0:"";s:33:"custom_field_template_use_wpautop";s:0:"";s:34:"custom_field_template_use_autosave";s:0:"";s:40:"custom_field_template_use_disable_button";s:0:"";s:47:"custom_field_template_disable_initialize_button";s:0:"";s:41:"custom_field_template_disable_save_button";s:0:"";s:51:"custom_field_template_disable_default_custom_fields";s:0:"";s:40:"custom_field_template_disable_quick_edit";s:0:"";s:49:"custom_field_template_disable_custom_field_column";s:0:"";s:39:"custom_field_template_replace_the_title";s:0:"";s:32:"custom_field_template_deploy_box";s:0:"";s:38:"custom_field_template_widget_shortcode";s:0:"";s:39:"custom_field_template_excerpt_shortcode";s:0:"";s:36:"custom_field_template_use_validation";s:0:"";s:32:"custom_field_template_disable_ad";i:1;}
